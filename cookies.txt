@@ -2,16 +2,19 @@
 # https://curl.haxx.se/rfc/cookie_spec.html
 # This is a generated file! Do not edit.
 
-.facebook.com	TRUE	/	TRUE	1797521444	sb	O8fHaHr3R7qKdBiTw-ltRufd
+.facebook.com	TRUE	/	TRUE	1797957232	sb	O8fHaHr3R7qKdBiTw-ltRufd
 .facebook.com	TRUE	/	TRUE	1792483132	ps_l	1
 .facebook.com	TRUE	/	TRUE	1792483132	ps_n	1
-.facebook.com	TRUE	/	TRUE	1768148034	vpd	v1%3B778x393x2.75
 .facebook.com	TRUE	/	TRUE	1763453307	dpr	3.0234789848327637
 .facebook.com	TRUE	/	TRUE	1763453308	locale	en_US
-.facebook.com	TRUE	/	TRUE	1797524035	datr	R1sUaQxxDowyQ5c3IvvaKh_u
-.facebook.com	TRUE	/	TRUE	1797524034	pas	100027076309502%3AFNRMMFGu17%2C61580888344389%3A7b53vbjNJB%2C61580746076399%3AhpN5E6tuHQ%2C61583230175430%3AwJLy0UT8M7
-.facebook.com	TRUE	/	TRUE	1794497444	c_user	61580746076399
-.facebook.com	TRUE	/	TRUE	1794497444	xs	33%3AmwH9b13kyMhDRg%3A2%3A1762961442%3A-1%3A-1
-.facebook.com	TRUE	/	TRUE	1770737448	fr	1pnhzN14MBMc8imkx.AWfjUtdr_jxH4sXtWY7H5fneY3GI78a_Be4cqFakmn6vSTXuvfs.BpFEdd..AAA.0.0.BpFKgo.AWfEiYerxzDVgwJ8Cz0xiNiuf2Y
-.facebook.com	TRUE	/	TRUE	1794500034	fbl_st	100432851%3BT%3A29382733
-.facebook.com	TRUE	/	TRUE	1770740034	wl_cbv	v2%3Bclient_version%3A2981%3Btimestamp%3A1762964034
+.facebook.com	TRUE	/	TRUE	1797857542	datr	R1sUaQxxDowyQ5c3IvvaKh_u
+.facebook.com	TRUE	/	TRUE	1797957232	pas	100027076309502%3AFNRMMFGu17%2C61580888344389%3A7b53vbjNJB%2C61580746076399%3AhpN5E6tuHQ%2C61583230175430%3AwJLy0UT8M7
+.facebook.com	TRUE	/	TRUE	1768581232	vpd	v1%3B778x393x2.75
+.facebook.com	TRUE	/	TRUE	0	m_pixel_ratio	2.75
+.facebook.com	TRUE	/	TRUE	0	wd	393x886
+.facebook.com	TRUE	/	TRUE	1794933232	c_user	61580746076399
+.facebook.com	TRUE	/	TRUE	1794933232	xs	4%3AtfHNZbP8SIMf-A%3A2%3A1763397230%3A-1%3A-1
+.facebook.com	TRUE	/	TRUE	1771173232	fr	1pnhzN14MBMc8imkx.AWeMuLIyjDF_wUQoIRn6GAk-iWtkeQwKHItTgu-x8NNQTFqoGfw.BpFEdd..AAA.0.0.BpG05w.AWdv561Cjcgi-JjsEYJKGxW9SwQ
+.facebook.com	TRUE	/	TRUE	1794933232	fbl_st	100627256%3BT%3A29389953
+.facebook.com	TRUE	/	TRUE	1771173232	wl_cbv	v2%3Bclient_version%3A2986%3Btimestamp%3A1763397232
+
