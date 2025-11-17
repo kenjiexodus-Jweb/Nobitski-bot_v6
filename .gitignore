@@ -1,0 +1,8 @@
+node_modules/
+cmds/cache/
+assets/*.mp4
+assets/*.mp5
+assets/*.gif
+*.log
+fb_dtsg_data.json
+temp/

@@ -1,0 +1,33 @@
+const fs = require("fs-extra");
+const path = require("path");
+
+const configDir = path.join(__dirname, "..", "database");
+const configPath = path.join(configDir, "autoreact.json");
+
+// Ensure the folder exists
+if (!fs.existsSync(configDir)) {
+  fs.mkdirSync(configDir, { recursive: true });
+}
+
+// Create the file if it doesn't exist
+if (!fs.existsSync(configPath)) {
+  fs.writeFileSync(configPath, "{}");
+}
+
+let config = JSON.parse(fs.readFileSync(configPath, "utf8"));
+
+module.exports = async function ({ api, event }) {
+  const { threadID, messageID, senderID } = event;
+
+  // Check if autoreact is enabled in this thread
+  if (!config[threadID]) return;
+
+  const emojis = ["❤️", "😆", "😮", "😢", "😠", "👍", "👎", "🔥", "🤖", "💀"];
+  const randomEmoji = emojis[Math.floor(Math.random() * emojis.length)];
+
+  try {
+    api.setMessageReaction(randomEmoji, messageID, (err) => {}, true);
+  } catch (e) {
+    console.error("AutoReact Error:", e);
+  }
+};

@@ -1,0 +1,10 @@
+{
+  "models": {
+    "GEMINI": false,
+    "LLAMA": false,
+    "DEEPSEEK": false,
+    "GPT5": true,
+    "BRAVE": false
+  },
+  "active_ai": "GPT5"
+}

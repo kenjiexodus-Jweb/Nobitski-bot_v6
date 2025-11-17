@@ -1,0 +1,7 @@
+{
+  "gpt5": true,
+  "gemini": false,
+  "llama": false,
+  "deepseek": false,
+  "brave": false
+}

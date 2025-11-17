@@ -1,0 +1,56 @@
+{
+  "name": "nobitski-bot",
+  "version": "4.0.0",
+  "description": "Nobitski Bot - A Messenger AI Bot powered by Jonnel AI System",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "render-start": "npm install && node index.js"
+  },
+  "keywords": [
+    "facebook-bot",
+    "messenger-bot",
+    "ai-bot",
+    "nobitski-bot",
+    "chatbot",
+    "nodejs",
+    "termux",
+    "render-deploy"
+  ],
+  "author": "Jonnel Soriano",
+  "license": "ISC",
+  "engines": {
+    "node": ">=18.x"
+  },
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "axios": "^1.13.2",
+    "he": "^1.2", 
+    "date-fns": "^4.1.0",
+    "express": "^4.21.2",
+    "fluent-ffmpeg": "^2.1.3",
+    "form-data": "^4.0.4",
+    "fs-extra": "^11.3.0",
+    "mathjs": "^12.4.0",
+    "moment-timezone": "^0.6.0",
+    "node-cron": "^3.0.3",
+    "node-fetch": "^3.3.2",
+    "npmlog": "^7.0.1",
+    "pidusage": "^4.0.0",
+    "rss-parser": "^3.13.0",
+    "scrape-yt": "^1.4.8",
+    "ws": "^8.18.3",
+    "ws3-fca": "^1.0.47",
+    "yt-search": "^2.13.1",
+    "ytdl-core": "^4.11.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CHINK-JSWEB/nobitski-bot_v5.git"
+  },
+  "bugs": {
+    "url": "https://github.com/CHINK-JSWEB/nobitski-bot_v5/issues"
+  },
+  "homepage": "https://github.com/CHINK-JSWEB/nobitski-bot_v5#readme"
+}
