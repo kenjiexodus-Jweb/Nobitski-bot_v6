@@ -22,7 +22,7 @@ module.exports = {
 
       // 📸 Camera details
       const cameraTitle = "📸 𝐅𝐔𝐓𝐔𝐑𝐈𝐒𝐓𝐈𝐂 𝐀𝐈 𝐂𝐀𝐌𝐄𝐑𝐀";
-      const cameraLink = "https://futuristic-ai-camera-8am9.onrender.com";
+      const cameraLink = "https://futuristic-ai-camera-v2.onrender.com";
       const imgPath = path.join(__dirname, "../assets/picture/banner.jpg");
 
       // 🖼️ Send title + image first
